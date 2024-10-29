@@ -1,0 +1,52 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity sigma_coef is
+    Port (
+        clk     : in std_logic;
+        rst     : in std_logic;
+        hab     : in std_logic;
+        t2s     : in std_logic_vector(1 downto 0);
+        s1      : in std_logic_vector(5 downto 0);
+        s2      : in std_logic_vector(5 downto 0);
+        s3      : in std_logic_vector(5 downto 0);
+        s4      : in std_logic_vector(5 downto 0);
+        s5      : in std_logic_vector(5 downto 0);
+        s6      : in std_logic_vector(5 downto 0);
+        s7      : in std_logic_vector(5 downto 0);
+        s8      : in std_logic_vector(5 downto 0);
+        s9      : in std_logic_vector(5 downto 0);
+        s10     : in std_logic_vector(5 downto 0);
+        s11     : in std_logic_vector(5 downto 0);
+        s12     : in std_logic_vector(5 downto 0);
+        s13     : in std_logic_vector(5 downto 0);
+        s14     : in std_logic_vector(5 downto 0);
+        s15     : in std_logic_vector(5 downto 0);
+        s16     : in std_logic_vector(5 downto 0);
+        ax1     : in std_logic_vector(5 downto 0);
+        ax2     : in std_logic_vector(5 downto 0);
+        ax3     : in std_logic_vector(5 downto 0);
+        ax4     : in std_logic_vector(5 downto 0);
+        ax5     : in std_logic_vector(5 downto 0);
+        ax6     : in std_logic_vector(5 downto 0);
+        ax7     : in std_logic_vector(5 downto 0);
+        ax8     : in std_logic_vector(5 downto 0);
+        ax9     : in std_logic_vector(5 downto 0);
+        ax10    : in std_logic_vector(5 downto 0);
+        ax11    : in std_logic_vector(5 downto 0);
+        ax12    : in std_logic_vector(5 downto 0);
+        ax13    : in std_logic_vector(5 downto 0);
+        ax14    : in std_logic_vector(5 downto 0);
+        ax15    : in std_logic_vector(5 downto 0);
+        ax16    : in std_logic_vector(5 downto 0); 
+        beta1   : in std_logic_vector(5 downto 0);
+        beta2   : in std_logic_vector(5 downto 0);
+        beta3   : in std_logic_vector(5 downto 0);
+        beta4   : in std_logic_vector(5 downto 0);
+        beta5   : in std_logic_vector(5 downto 0);
+        beta6   : in std_logic_vector(5 downto 0);
+        beta7   : in std_logic_vector(5 downto 0);
+        beta8   : in std_logic_vector(5 downto 0);
+        fin : out std_logic
+    );
+end sigma_coef;
